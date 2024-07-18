@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 
 namespace Messenger.Gerenciador.Server.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class AuthController : ControllerBase
     {
         private readonly IAuthService _authService;
@@ -19,14 +19,16 @@ namespace Messenger.Gerenciador.Server.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginRequest loginRequest)
         {
-            var response = await _authService.Authenticate(loginRequest);
+            var usuario = await _authService.AuthenticateAsync(loginRequest.Usuario, loginRequest.Senha);
 
-            if (response == null)
+            if (usuario != null)
             {
-                return Unauthorized();
+                return Ok(new { message = "Autenticação bem-sucedida." });
             }
-
-            return Ok(response);
+            else
+            {
+                return Unauthorized(new { message = "Usuário ou senha inválidos." });
+            }
         }
     }
 }

@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Messenger.Gerenciador.Server.Models
+﻿namespace Messenger.Gerenciador.Server.Models
 {
     public class User
     {
@@ -8,10 +6,16 @@ namespace Messenger.Gerenciador.Server.Models
         public string Usuario { get; set; }
         public string Senha { get; set; }
         public int Status_Id { get; set; }
-        public int Pessoal_Id { get; set; }
-        public DateTime Ultimo_Login_Data { get; set; }
-        public DateTime Ultimo_Alteracao_Senha_Data { get; set; }
+        public DateTime? Ultimo_Login_Data { get; set; }
+        public DateTime? Ultima_Alteracao_Senha_Data { get; set; }
         public bool Aceitou_Termos { get; set; }
         public bool Aceitou_Cookies { get; set; }
+        public UsuarioStatus Status { get; set; }
+    }
+
+    public class UsuarioStatus
+    {
+        public int Id { get; set; }
+        public string Nome { get; set; }
     }
 }
