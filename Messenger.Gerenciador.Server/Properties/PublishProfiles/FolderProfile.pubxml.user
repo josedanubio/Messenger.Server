@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\progd\Dev\kakautech\Messenger.Gerenciador.Server\163.109.80.209\inetpub\wwwroot\gerenciador\server</_PublishTargetUrl>
+    <History>True|2024-07-16T12:56:42.4644795Z||;False|2024-07-16T09:51:44.9564665-03:00||;False|2024-07-16T09:50:17.5275213-03:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

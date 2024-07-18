@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5ZH9L4FPdlL0mkvUA7kLy+kku97cUsFW+3PoagoDaeY=",
+  "Source": "Messenger.Gerenciador.Server",
+  "BasePath": "_content/Messenger.Gerenciador.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

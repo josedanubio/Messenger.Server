@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "RxQJANyZRfUA5vt+6hnkzlqgXTGNGJUXXAbCZri2xQI=",
+  "Source": "Messenger.Gerenciador.Server",
+  "BasePath": "_content/Messenger.Gerenciador.Server",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
