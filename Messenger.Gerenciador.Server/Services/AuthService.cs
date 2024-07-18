@@ -16,11 +16,11 @@ namespace Messenger.Gerenciador.Server.Services
             _context = context;
         }
 
-        public async Task<User> AuthenticateAsync(string username, string password)
+        public async Task<User> AuthenticateAsync(string username, string senha)
         {
             var usuario = await _context.Usuarios.SingleOrDefaultAsync(u => u.Usuario == username);
 
-            if (!(usuario == null || !BCrypt.Verify(password, usuario.Senha)))
+            if (!(usuario == null || !BCrypt.Verify(senha, usuario.Senha)))
             {
                 usuario.Ultimo_Login_Data = DateTime.Now;
                 await _context.SaveChangesAsync();

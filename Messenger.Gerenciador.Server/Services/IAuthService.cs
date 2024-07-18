@@ -5,6 +5,6 @@ namespace Messenger.Gerenciador.Server.Services
 {
     public interface IAuthService
     {
-        Task<User> AuthenticateAsync(string username, string password);
+        Task<User> AuthenticateAsync(string usuario, string senha);
     }
 }

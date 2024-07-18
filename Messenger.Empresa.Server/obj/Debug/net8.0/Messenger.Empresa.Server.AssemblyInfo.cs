@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Messenger.Gerenciador.Server")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Messenger.Empresa.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d004feb776c2329ac42f0e4600cb477a5d9e585")]
-[assembly: System.Reflection.AssemblyProductAttribute("Messenger.Gerenciador.Server")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Messenger.Gerenciador.Server")]
+[assembly: System.Reflection.AssemblyProductAttribute("Messenger.Empresa.Server")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Messenger.Empresa.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
