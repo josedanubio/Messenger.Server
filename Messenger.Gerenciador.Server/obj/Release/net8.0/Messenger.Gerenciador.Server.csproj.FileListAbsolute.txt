@@ -115,3 +115,14 @@ C:\Users\progd\Dev\kakautech\Messenger.Gerenciador.Server\obj\Release\net8.0\ref
 C:\Users\progd\Dev\kakautech\Messenger.Gerenciador.Server\obj\Release\net8.0\Messenger.Gerenciador.Server.pdb
 C:\Users\progd\Dev\kakautech\Messenger.Gerenciador.Server\obj\Release\net8.0\Messenger.Gerenciador.Server.genruntimeconfig.cache
 C:\Users\progd\Dev\kakautech\Messenger.Gerenciador.Server\obj\Release\net8.0\ref\Messenger.Gerenciador.Server.dll
+C:\Users\progd\Dev\kakautech\Messenger.Server\Messenger.Gerenciador.Server\obj\Release\net8.0\Messenger.Gerenciador.Server.csproj.AssemblyReference.cache
+C:\Users\progd\Dev\kakautech\Messenger.Server\Messenger.Gerenciador.Server\obj\Release\net8.0\Messenger.Gerenciador.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\progd\Dev\kakautech\Messenger.Server\Messenger.Gerenciador.Server\obj\Release\net8.0\Messenger.Gerenciador.Server.AssemblyInfoInputs.cache
+C:\Users\progd\Dev\kakautech\Messenger.Server\Messenger.Gerenciador.Server\obj\Release\net8.0\Messenger.Gerenciador.Server.AssemblyInfo.cs
+C:\Users\progd\Dev\kakautech\Messenger.Server\Messenger.Gerenciador.Server\obj\Release\net8.0\Messenger.Gerenciador.Server.csproj.CoreCompileInputs.cache
+C:\Users\progd\Dev\kakautech\Messenger.Server\Messenger.Gerenciador.Server\obj\Release\net8.0\Messenger.Gerenciador.Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\progd\Dev\kakautech\Messenger.Server\Messenger.Gerenciador.Server\obj\Release\net8.0\Messenger.Gerenciador.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\progd\Dev\kakautech\Messenger.Server\Messenger.Gerenciador.Server\obj\Release\net8.0\Messenger.Gerenciador.Server.sourcelink.json
+C:\Users\progd\Dev\kakautech\Messenger.Server\Messenger.Gerenciador.Server\obj\Release\net8.0\Messenger.Gerenciador.Server.dll
+C:\Users\progd\Dev\kakautech\Messenger.Server\Messenger.Gerenciador.Server\obj\Release\net8.0\refint\Messenger.Gerenciador.Server.dll
+C:\Users\progd\Dev\kakautech\Messenger.Server\Messenger.Gerenciador.Server\obj\Release\net8.0\Messenger.Gerenciador.Server.pdb

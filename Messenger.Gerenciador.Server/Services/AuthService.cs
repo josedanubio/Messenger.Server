@@ -1,8 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿extern alias BCryptNext;
+
+using Microsoft.EntityFrameworkCore;
 using Messenger.Gerenciador.Server.Data;
 using Messenger.Gerenciador.Server.Models;
-using System;
-using System.Threading.Tasks;
+using BCryptNext::BCrypt.Net;
 
 namespace Messenger.Gerenciador.Server.Services
 {
@@ -19,7 +20,7 @@ namespace Messenger.Gerenciador.Server.Services
         {
             var usuario = await _context.Usuarios.SingleOrDefaultAsync(u => u.Usuario == username);
 
-            if (usuario != null && BCrypt.Net.BCrypt.Verify(password, usuario.Senha))
+            if (!(usuario == null || !BCrypt.Verify(password, usuario.Senha)))
             {
                 usuario.Ultimo_Login_Data = DateTime.Now;
                 await _context.SaveChangesAsync();
